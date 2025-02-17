@@ -1,0 +1,34 @@
+# IDE
+.idea/
+.vscode/
+
+# user prefs
+*.suo
+*.user
+.vs
+
+
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+[Bb]in*/
+[Oo]bj*/
+[Dd]ebug*/
+[Rr]elease
+#dev config
+*[Dd]evelo*.json
+# mstest test results
+TestResults
+*/TestResults
+
+# nuget stuff
+*/packages/*
+packages/*
+src/packages/*
+*.nupkg
+
+# Publish settings
+*.Publish.xml
+
+#logs
+src/global.json
+src/.vscode/*
+
